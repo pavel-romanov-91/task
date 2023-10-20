@@ -1,0 +1,6 @@
+.header_container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-content: center;
+    justify-items: center;
+}
