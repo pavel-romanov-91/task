@@ -1,9 +1,12 @@
 import React from 'react'
 import './Footer.css'
 
-function Footer() {
+function Footer({contacts, copy}) {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <span>{contacts}</span>
+      <span>{copy}</span>
+    </div>
   )
 }
 

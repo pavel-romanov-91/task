@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header logo_src={'/img/content_thumb.png'}/>
       <Nav menu_items={[{title:"Новости", link:"/news"},{title:"О нас", link:"/about"}]}/>
-      <Footer/>
+      <Footer contacts={'Наши Контакты'} copy={'Наши Коперайты'}/>
     </div>
   );
 }

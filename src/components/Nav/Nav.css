@@ -1,0 +1,9 @@
+.nav_li{
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+   
+}
+.nav_li a{
+    text-decoration: none;
+}
